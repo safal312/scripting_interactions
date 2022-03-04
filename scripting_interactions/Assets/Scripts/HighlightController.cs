@@ -15,6 +15,11 @@ public class HighlightController : MonoBehaviour
         SetBaseColor(meshRenderer.material.color);
     }
 
+    public Color GetBaseColor()
+    {
+        return baseColor;
+    }
+
     public void SetBaseColor(Color c)
     {
         baseColor = c;
